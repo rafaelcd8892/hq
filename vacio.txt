@@ -1,4 +1,12 @@
 
-Hola,
+Hola Yisus.
 
-Me llamo rafael y tengo 32 años.
+Este es mi entorno de trabajo.
+
+Como verás, estoy constuyendo un HTML bien pupú basado en lo que enseñan en el curso de desarrollo web que enseña Leonidas Esteban. jejeje.
+
+Empecé haciendo un calco de lo que el hizo, pero luego le fui agregando algunas mariqueras un poco más adecuadas a lo que me gustaría hacer. Aunque todavía me falta mucho por agregar como por ejemplo fotos y vainas así. 
+
+Este entorno lo estoy creando como prueba para GIT, para aprender a usarlo sin sufrir en el intento y lo tengo adaptado tanto para mi pc de escritorio como para mi mini laptop y todo bien. Si puedes leer esto es que todo ha funcionado de manera fenomenal y que ya sabes usar git jejeje.
+
+Aquí podemos agregar todo lo que hemos hecho y así y poder trabajar sobre esas cosas de forma remota y sin sufrir en el intento. Veremos que tal funciona.
