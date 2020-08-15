@@ -8,15 +8,17 @@ valores*/
 /* gris claro = #626262 */
 /* background gris = #1b2127  */
 
-header {
-    background-color: pink ;
-    color:red;
-}
 
 /*selector de etiqueta header -section - nav */
 /*selector descendente elementos hijos*/
 /*selector de ID # */
 /*selector de ID . */
+
+* { 
+     margin: 0;
+     padding: 0;
+}
+
 
 
 body { 
@@ -53,16 +55,14 @@ border-radius: 10px;
 padding: 45px;
 margin: 10px;
 margin-bottom: 15px;
-width: 500px;
-height: 500px;
+display: inline-block;
 
 }
 
 .project-content {
-width: 500px;
 height: 200px;
 margin-bottom: 15px;
-
+display: inline-block
 }
 
 .project-image {
@@ -83,31 +83,63 @@ padding: 15px;
 .header {
     background-color: #1E1E1E;
     color: #E7E7E7;
-}
 
-.header a{
-    color: #E7E7E7 ;
-    text-decoration: none;
+    height: 110px;
+    display: flex;
+    text-align: left;
 }
 
 .menu
 {
-    display: flex;
     font-family: 'Fjalla One';
-
+    height: inherit;
+    text-align: left;
 }
 
+.menu ul {
+    height: inherit;
+}
+
+
+.menu ul li {
+    height: inherit;  
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a {
+    color:white;
+    height: inherit;
+    padding: 20px;
+    font-size: 35px;
+    color: #E7E7E7;
+    font-style: none;
+}
+
+
+figure {
+    margin: 0;
+
+}
 
 .flexbox {
 display: flex;
 flex-wrap: wrap;
 }
 
-.box {
-    width: 50px;
-    height: 50px;
-    border: 2px solid blue;
-    flex-shrink: 0;
-    margin: 10px;
+
+.eventimage-container {
+   border: 1px solid gray ;
+border-radius: 10px;
+padding: 45px;
+margin: 10px;
+margin-bottom: 15px;
+width: 500px;
+height: 250px;
+}
+
+.eventimage {
+width: 500px;
+padding: 15px;
 }
 
